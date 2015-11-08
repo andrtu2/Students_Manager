@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ClassProfesor">
+      <HintPath>..\..\ClassProfesor\ClassProfesor\bin\Debug\ClassProfesor.dll</HintPath>
+    </Reference>
     <Reference Include="ClassStudent">
       <HintPath>..\..\ClassStudent\ClassStudent\bin\Debug\ClassStudent.dll</HintPath>
     </Reference>

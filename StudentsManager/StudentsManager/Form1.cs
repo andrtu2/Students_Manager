@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ClassStudent;
+using ClassProfesor;
 
 namespace StudentsManager
 {
@@ -20,7 +21,7 @@ namespace StudentsManager
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Student stud = new Student("asd","asdfd",123);
+            
         }
     }
 }

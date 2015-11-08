@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82001826-6C3F-4C7A-9720-1E594E761563}</ProjectGuid>
+    <ProjectGuid>{3F6EC94A-AE7E-4DF9-8D7A-BA9A5B206B1E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ClassStudent</RootNamespace>
-    <AssemblyName>ClassStudent</AssemblyName>
+    <RootNamespace>ClassMaterie</RootNamespace>
+    <AssemblyName>ClassMaterie</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,8 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ClassMaterie">
-      <HintPath>..\..\ClassMaterie\ClassMaterie\bin\Debug\ClassMaterie.dll</HintPath>
+    <Reference Include="ClassStudent">
+      <HintPath>..\..\ClassStudent\ClassStudent\bin\Debug\ClassStudent.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
