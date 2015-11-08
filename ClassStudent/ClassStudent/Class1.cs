@@ -27,11 +27,13 @@ namespace ClassStudent
     {
         List<Materie> listaMaterii = new List<Materie>();
         double medie = 0;
+        private bool CerereCazareCamin;
 
-        public StudentFacultate(int NrMatricol, string Nume, string Prenume, int CNP, List<Materie> listaMaterii)
+        public StudentFacultate(int NrMatricol, string Nume, string Prenume, int CNP, List<Materie> listaMaterii, bool CerereCazareCamin)
             : base(NrMatricol, Nume, Prenume, CNP)
         {
             this.listaMaterii = listaMaterii;
+            this.CerereCazareCamin = CerereCazareCamin;
         }
 
         public List<Materie> getList
@@ -50,6 +52,17 @@ namespace ClassStudent
             set
             {
                 medie = value;
+            }
+        }
+        public bool _cerereCazareCamin
+        {
+            get
+            {
+                return CerereCazareCamin;
+            }
+            set
+            {
+                CerereCazareCamin=value;
             }
         }
     }
@@ -77,6 +90,12 @@ namespace ClassStudent
 
     interface DetaliiFacultate
     {
+        bool _cerereCazareCamin
+        {
+            set;
+            get;
+        }
+
         double _medie
         {
             get;

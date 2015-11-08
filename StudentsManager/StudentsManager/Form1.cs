@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ClassStudent;
 using ClassProfesor;
+using ClassUniversitateSiFacultate;
+using ClassInitialization;
 
 namespace StudentsManager
 {
@@ -21,7 +23,14 @@ namespace StudentsManager
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            List<Student> listaStudentiUniversitate = new List<Student>();
+            //List<Facultate> listaFacultati = new List<Facultate>();
+
+            Initialization Init = new Initialization();
+            List<Facultate> listaFacultati=Init.getListFacultati();
+
+            Universitate Univ = new Universitate("Politehnica Timisoara", listaFacultati, listaStudentiUniversitate);
+           
         }
     }
 }
