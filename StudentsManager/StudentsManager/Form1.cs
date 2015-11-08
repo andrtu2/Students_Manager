@@ -27,7 +27,10 @@ namespace StudentsManager
             //List<Facultate> listaFacultati = new List<Facultate>();
 
             Initialization Init = new Initialization();
-            List<Facultate> listaFacultati=Init.getListFacultati();
+       //     List<Facultate> listaFacultati=Init.getListFacultati();
+            List<Profesor> listaprof = Init.getListFacultati();
+           List<Facultate> listaFacultati = null;
+         //   Init.getListFacultati();
 
             Universitate Univ = new Universitate("Politehnica Timisoara", listaFacultati, listaStudentiUniversitate);
            
