@@ -10,16 +10,38 @@ namespace ClassMaterie
     public class Materie
     {
         private string Nume;
-        private float Medie;
-
-        public Materie(string Nume, float Medie)
+ 
+        public Materie(string Nume)
         {
             this.Nume = Nume;
         }
 
-        public string setMedia
+    }
+
+    public class MaterieStudent: Materie,NoteMaterie
+    {
+
+        private double Medie;
+
+        public MaterieStudent(string Nume):base(Nume)
         {
-            set { Medie = float.Parse(value); }
+           
+        }
+
+        public double _media
+        {
+            set { Medie = value; }
+            get { return Medie; }
         }
     }
+
+    interface NoteMaterie
+    {
+        double _media
+        {
+            set;
+            get;
+        }
+    }
+
 }

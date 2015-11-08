@@ -11,11 +11,11 @@ namespace ClassSecretariat
 {
     public class Secretariat
     {
-        List<Student> ListaStudenti = new List<Student>();
+        List<StudentFacultate> ListaStudenti = new List<StudentFacultate>();
         List<Profesor> ListaProfesori = new List<Profesor>();
         List<Materie> ListaMaterii = new List<Materie>();
 
-        public Secretariat(List<Student> ListaStudenti, List<Profesor> ListaProfesori, List<Materie> ListaMaterii)
+        public Secretariat(List<StudentFacultate> ListaStudenti, List<Profesor> ListaProfesori, List<Materie> ListaMaterii)
         {
             this.ListaStudenti = ListaStudenti;
             this.ListaProfesori = ListaProfesori;
