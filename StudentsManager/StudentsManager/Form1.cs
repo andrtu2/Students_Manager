@@ -23,17 +23,20 @@ namespace StudentsManager
 
         private void button1_Click(object sender, EventArgs e)
         {
-            List<Student> listaStudentiUniversitate = new List<Student>();
-            //List<Facultate> listaFacultati = new List<Facultate>();
-
             Initialization Init = new Initialization();
-       //     List<Facultate> listaFacultati=Init.getListFacultati();
-            List<Profesor> listaprof = Init.getListFacultati();
-           List<Facultate> listaFacultati = null;
-         //   Init.getListFacultati();
-
-            Universitate Univ = new Universitate("Politehnica Timisoara", listaFacultati, listaStudentiUniversitate);
+            Universitate Univ = Init.GetInfoFromFilesAndCreatUniversitate();
            
         }
+
+
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = comboBox1.Text;
+        }
+
+
+
+
     }
 }

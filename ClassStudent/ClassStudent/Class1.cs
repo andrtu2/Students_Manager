@@ -25,18 +25,18 @@ namespace ClassStudent
 
     public class StudentFacultate : Student,DetaliiFacultate
     {
-        List<Materie> listaMaterii = new List<Materie>();
+        List<MaterieStudent> listaMaterii = new List<MaterieStudent>();
         double medie = 0;
         private bool CerereCazareCamin;
 
-        public StudentFacultate(int NrMatricol, string Nume, string Prenume, int CNP, List<Materie> listaMaterii, bool CerereCazareCamin)
+        public StudentFacultate(int NrMatricol, string Nume, string Prenume, int CNP, List<MaterieStudent> listaMaterii, bool CerereCazareCamin)
             : base(NrMatricol, Nume, Prenume, CNP)
         {
             this.listaMaterii = listaMaterii;
             this.CerereCazareCamin = CerereCazareCamin;
         }
 
-        public List<Materie> getList
+        public List<MaterieStudent> getList
         {
             get
             {
@@ -102,7 +102,7 @@ namespace ClassStudent
             set;
         }
    
-        List<Materie> getList
+        List<MaterieStudent> getList
         {
             get;
         }

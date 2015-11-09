@@ -33,5 +33,11 @@ namespace ClassUniversitateSiFacultate
             this.Nume = Nume;
             this.SecretariatulFacultatii = SecretariatulFacultatii;
         }
+
+        public string _getNume
+        {
+            get { return Nume; }
+           
+        }
     }
 }
