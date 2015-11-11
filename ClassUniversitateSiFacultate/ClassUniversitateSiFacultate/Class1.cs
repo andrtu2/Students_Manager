@@ -20,6 +20,16 @@ namespace ClassUniversitateSiFacultate
             this.ListaFacultati = ListaFacultati;
             this.ListaStudenti = ListaStudenti;           
         }
+
+        public List<Facultate> getFacultiesList
+        {
+            get { return ListaFacultati; }
+        }
+
+        public List<Student> getStudentsList
+        {
+            get { return ListaStudenti; }
+        }
     }
 
     public class Facultate
@@ -38,6 +48,11 @@ namespace ClassUniversitateSiFacultate
         {
             get { return Nume; }
            
+        }
+
+        public Secretariat _getSecr
+        {
+            get { return SecretariatulFacultatii; }
         }
     }
 }

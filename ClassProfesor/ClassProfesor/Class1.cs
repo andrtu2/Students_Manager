@@ -22,5 +22,15 @@ namespace ClassProfesor
             this.Identificator = Identificator;
             this.NumeMateriePredata = NumeMateriePredata;
         }
+
+        public string getNumeProf
+        {
+            get{ return Nume;}
+        }
+
+        public string getMateriePredata
+        {
+            get { return NumeMateriePredata; }
+        }
     }
 }

@@ -21,6 +21,12 @@ namespace ClassStudent
             this.CNP = CNP;
             this.NrMatricol = NrMatricol;
         }
+
+        public string getNume
+        {
+            get { return Nume; }
+        }
+
     }
 
     public class StudentFacultate : Student,DetaliiFacultate
@@ -64,6 +70,11 @@ namespace ClassStudent
             {
                 CerereCazareCamin=value;
             }
+        }
+
+        public List<MaterieStudent> getListaMaterii
+        {
+            get { return listaMaterii; }
         }
     }
 

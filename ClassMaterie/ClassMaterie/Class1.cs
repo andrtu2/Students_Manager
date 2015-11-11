@@ -16,6 +16,12 @@ namespace ClassMaterie
             this.Nume = Nume;
         }
 
+        public string getNume
+        {
+            get { return Nume; }
+        }
+
+
     }
 
     public class MaterieStudent: Materie,NoteMaterie

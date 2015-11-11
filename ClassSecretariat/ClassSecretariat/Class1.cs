@@ -22,5 +22,20 @@ namespace ClassSecretariat
             this.ListaMaterii = ListaMaterii;
  
         }
+
+        public List<Profesor> getProfList
+        {
+            get { return ListaProfesori; }
+        }
+
+        public List<Materie> getMateriiList
+        {
+            get { return ListaMaterii; }
+        }
+
+        public List<StudentFacultate> getStudentsList
+        {
+            get { return ListaStudenti; }
+        }
     }
 }

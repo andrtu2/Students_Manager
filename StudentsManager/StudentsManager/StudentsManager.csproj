@@ -35,8 +35,16 @@
     <Reference Include="ClassInitialization">
       <HintPath>..\..\ClassInitialization\ClassInitialization\bin\Debug\ClassInitialization.dll</HintPath>
     </Reference>
+    <Reference Include="ClassMaterie, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ClassMaterie\ClassMaterie\bin\Debug\ClassMaterie.dll</HintPath>
+    </Reference>
     <Reference Include="ClassProfesor">
       <HintPath>..\..\ClassProfesor\ClassProfesor\bin\Debug\ClassProfesor.dll</HintPath>
+    </Reference>
+    <Reference Include="ClassSecretariat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ClassSecretariat\ClassSecretariat\bin\Debug\ClassSecretariat.dll</HintPath>
     </Reference>
     <Reference Include="ClassStudent">
       <HintPath>..\..\ClassStudent\ClassStudent\bin\Debug\ClassStudent.dll</HintPath>
