@@ -18,7 +18,7 @@ namespace Factory
         }
     }
 
-    public class Initialization
+    public class FactoryClass
     {
         public Universitate GetInfoFromFilesAndCreatUniversitate()
         {

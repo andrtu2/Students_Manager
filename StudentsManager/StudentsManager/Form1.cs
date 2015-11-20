@@ -41,7 +41,7 @@ namespace StudentsManager
         private void button1_Click(object sender, EventArgs e)
         {
             //Init Button
-            Initialization Init = new Initialization();
+            FactoryClass Init = new FactoryClass();
             Universitate Univ = Init.GetInfoFromFilesAndCreatUniversitate();
             Poli = Univ;
         }
